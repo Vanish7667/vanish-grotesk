@@ -25,6 +25,360 @@
                     "images/combat/Gorka/gorka_13.png",
                     "images/combat/Gorka/gorka_14.png"
                 ]
+            },
+            {
+                "rank": "Ветеран",
+                "description": "Горка.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Gorka/gorka_1.png",
+                    "images/combat/Gorka/gorka_2.png",
+                    "images/combat/Gorka/gorka_3.png",
+                    "images/combat/Gorka/gorka_4.png",
+                    "images/combat/Gorka/gorka_5.png",
+                    "images/combat/Gorka/gorka_6.png",
+                    "images/combat/Gorka/gorka_7.png",
+                    "images/combat/Gorka/gorka_8.png",
+                    "images/combat/Gorka/gorka_9.png",
+                    "images/combat/Gorka/gorka_10.png",
+                    "images/combat/Gorka/gorka_11.png",
+                    "images/combat/Gorka/gorka_12.png",
+                    "images/combat/Gorka/gorka_13.png",
+                    "images/combat/Gorka/gorka_14.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Новая Заря",
+        "variants": [
+            {
+                "rank": "Вариант А",
+                "description": "Новая Заря.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Zarya/Zarya_A/Zarya_A_1.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_2.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_3.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_4.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_5.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_6.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_7.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_8.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_9.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_10.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_11.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_12.png"
+                ]
+            },
+            {
+                "rank": "Вариант В",
+                "description": "Новая Заря.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Zarya/Zarya_A/Zarya_B_1.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_2.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_3.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_4.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_5.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_6.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_7.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_8.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_9.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_10.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_11.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_B_12.png"
+                ]
+            },
+            {
+                "rank": "Новичок",
+                "description": "Новая Заря.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Zarya/Zarya_A/Zarya_A_1.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_2.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_3.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_4.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_5.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_6.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_7.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_8.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_9.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_10.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_11.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_12.png"
+                ]
+            },
+            {
+                "rank": "Ветеран",
+                "description": "Новая Заря.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Zarya/Zarya_A/Zarya_A_1.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_2.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_3.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_4.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_5.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_6.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_7.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_8.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_9.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_10.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_11.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_12.png"
+                ]
+            },
+            {
+                "rank": "Легенда 3",
+                "description": "Новая Заря.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Zarya/Zarya_A/Zarya_A_1.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_2.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_3.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_4.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_5.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_6.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_7.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_8.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_9.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_10.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_11.png",
+                    "images/combat/Zarya/Zarya_A/Zarya_A_12.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Булат",
+        "variants": [
+            {
+                "rank": "Легенда 3",
+                "description": "Булат.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Bulat/bulat_1.png",
+                    "images/combat/Bulat/bulat_2.png",
+                    "images/combat/Bulat/bulat_3.png",
+                    "images/combat/Bulat/bulat_4.png",
+                    "images/combat/Bulat/bulat_5.png",
+                    "images/combat/Bulat/bulat_6.png",
+                    "images/combat/Bulat/bulat_7.png",
+                    "images/combat/Bulat/bulat_8.png"
+                ]
+            },
+            {
+                "rank": "Легенда Х",
+                "description": "Булат.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Bulat/bulat_1.png",
+                    "images/combat/Bulat/bulat_2.png",
+                    "images/combat/Bulat/bulat_3.png",
+                    "images/combat/Bulat/bulat_4.png",
+                    "images/combat/Bulat/bulat_5.png",
+                    "images/combat/Bulat/bulat_6.png",
+                    "images/combat/Bulat/bulat_7.png",
+                    "images/combat/Bulat/bulat_8.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Монохром",
+        "variants": [
+            {
+                "rank": "Легенда 1",
+                "description": "Монохром.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Monochom/Monochom_1.png",
+                    "images/combat/Monochom/Monochom_2.png",
+                    "images/combat/Monochom/Monochom_3.png",
+                    "images/combat/Monochom/Monochom_4.png",
+                    "images/combat/Monochom/Monochom_5.png",
+                    "images/combat/Monochom/Monochom_6.png",
+                    "images/combat/Monochom/Monochom_7.png"
+                ]
+            },
+            {
+                "rank": "Легенда Х",
+                "description": "Монохром.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Monochom/Monochom_1.png",
+                    "images/combat/Monochom/Monochom_2.png",
+                    "images/combat/Monochom/Monochom_3.png",
+                    "images/combat/Monochom/Monochom_4.png",
+                    "images/combat/Monochom/Monochom_5.png",
+                    "images/combat/Monochom/Monochom_6.png",
+                    "images/combat/Monochom/Monochom_7.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Носорог",
+        "variants": [
+            {
+                "rank": "Легенда 1",
+                "description": "Носорог.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Nosorog/Monochom_1.png",
+                    "images/combat/Nosorog/Monochom_2.png",
+                    "images/combat/Nosorog/Monochom_3.png",
+                    "images/combat/Nosorog/Monochom_4.png",
+                    "images/combat/Nosorog/Monochom_5.png",
+                    "images/combat/Nosorog/Monochom_6.png",
+                    "images/combat/Nosorog/Monochom_7.png",
+                    "images/combat/Nosorog/Monochom_8.png",
+                    "images/combat/Nosorog/Monochom_9.png",
+                    "images/combat/Nosorog/Monochom_10.png",
+                    "images/combat/Nosorog/Monochom_10.png",
+                    "images/combat/Nosorog/Monochom_12.png"
+                ]
+            },
+            {
+                "rank": "Легенда 3",
+                "description": "Носорог.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Nosorog/Monochom_1.png",
+                    "images/combat/Nosorog/Monochom_2.png",
+                    "images/combat/Nosorog/Monochom_3.png",
+                    "images/combat/Nosorog/Monochom_4.png",
+                    "images/combat/Nosorog/Monochom_5.png",
+                    "images/combat/Nosorog/Monochom_6.png",
+                    "images/combat/Nosorog/Monochom_7.png",
+                    "images/combat/Nosorog/Monochom_8.png",
+                    "images/combat/Nosorog/Monochom_9.png",
+                    "images/combat/Nosorog/Monochom_10.png",
+                    "images/combat/Nosorog/Monochom_10.png",
+                    "images/combat/Nosorog/Monochom_12.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Син",
+        "variants": [
+            {
+                "rank": "Легенда 3",
+                "description": "Син.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Sin/Sin_1.png",
+                    "images/combat/Sin/Sin_2.png",
+                    "images/combat/Sin/Sin_3.png"
+                ]
+            },
+            {
+                "rank": "Легенда Х",
+                "description": "Син.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Sin/Sin_1.png",
+                    "images/combat/Sin/Sin_2.png",
+                    "images/combat/Sin/Sin_3.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Скат",
+        "variants": [
+            {
+                "rank": "Легенда 3",
+                "description": "Скат.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Skat/Skat_1.png",
+                    "images/combat/Skat/Skat_2.png",
+                    "images/combat/Skat/Skat_3.png",
+                    "images/combat/Skat/Skat_4.png",
+                    "images/combat/Skat/Skat_5.png",
+                    "images/combat/Skat/Skat_6.png",
+                    "images/combat/Skat/Skat_7.png"
+                ]
+            },
+            {
+                "rank": "Легенда Х",
+                "description": "Скат.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Skat/Skat_1.png",
+                    "images/combat/Skat/Skat_2.png",
+                    "images/combat/Skat/Skat_3.png",
+                    "images/combat/Skat/Skat_4.png",
+                    "images/combat/Skat/Skat_5.png",
+                    "images/combat/Skat/Skat_6.png",
+                    "images/combat/Skat/Skat_7.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Вудмен",
+        "variants": [
+            {
+                "rank": "Легенда 3",
+                "description": "Вудмен.",
+                "stats": {
+                    "Защита": 999,
+                    "Защита от радиации": 999
+                },
+                "images": [
+                    "images/combat/Woodman/Woodman_1.png"
+                ]
             }
         ]
     }
