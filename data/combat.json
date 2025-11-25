@@ -4,8 +4,81 @@
         "variants": [
             {
                 "rank": "Новичок",
-                "description": "Горка.",
+                "description": "Горка - можно ходить по грибы.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 0,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 0,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 0,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 0,
+                        "description": "Восход.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
+                    "Общее кол-во слотов": 300,
                     "Защита": 30,
                     "Защита от радиации": 238
                 },
@@ -30,6 +103,7 @@
                 "rank": "Ветеран",
                 "description": "Горка.",
                 "stats": {
+                    "Общее кол-во слотов": 300,
                     "Защита": 70,
                     "Защита от радиации": 238
                 },
@@ -59,8 +133,8 @@
                 "rank": "Вариант А",
                 "description": "Новая Заря.",
                 "stats": {
-                    "Защита": 0.0,
-                    "Защита от радиации": 0.0
+                    "Защита": 0,
+                    "Защита от радиации": 0
                 },
                 "images": [
                     "images/combat/Zarya/Zarya_A/Zarya_A_1.png",
@@ -81,8 +155,8 @@
                 "rank": "Вариант В",
                 "description": "Новая Заря.",
                 "stats": {
-                    "Защита": 0.0,
-                    "Защита от радиации": 0.0
+                    "Защита": 0,
+                    "Защита от радиации": 0
                 },
                 "images": [
                     "images/combat/Zarya/Zarya_B/Zarya_B_1.png",
@@ -215,8 +289,8 @@
                 "rank": "Легенда 1",
                 "description": "Монохром.",
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Защита": 80,
+                    "Защита от радиации": 328
                 },
                 "images": [
                     "images/combat/Monochom/Monochom_1.png",

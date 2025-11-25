@@ -22,7 +22,7 @@ const setsColumn = document.getElementById("sets-column");
 const detailsColumn = document.getElementById("details-column");
 
 const classes = ["combat", "science", "mixed"];
-const classNames = {combat:"Боевой", science:"Научный", mixed:"Комбинированный"};
+const classNames = {combat:"Боевой", science:"Научный", mixed:"Скрытные"};
 
 let currentSet = null;
 let currentVariantIndex = 0;
@@ -32,6 +32,7 @@ const rankContainer = document.createElement("div");
 const photoContainer = document.createElement("div");
 const desc = document.createElement("p");
 const statsContainer = document.createElement("div");
+const imageSlotsContainer = document.createElement("div"); // контейнер для кружков слотов
 
 detailsColumn.innerHTML = "<h3>Детали комплекта</h3>";
 detailsColumn.appendChild(rankContainer);
@@ -101,6 +102,7 @@ function renderSet(){
     rankContainer.innerHTML = "";
     photoContainer.innerHTML = "";
     statsContainer.innerHTML = "";
+    imageSlotsContainer.innerHTML = "";
 
     // Ранги
     currentSet.variants.forEach((v,i)=>{
@@ -148,10 +150,32 @@ function renderSet(){
     // Описание
     desc.textContent = `${currentSet.name} (${variant.rank}) - ${variant.description}`;
 
-    // Характеристики
-    const statsTitle = document.createElement("h4");
-    statsTitle.textContent = "Характеристики:";
-    statsContainer.appendChild(statsTitle);
+    // Кружочки слотов под заголовком
+    if(variant.slots && Array.isArray(variant.slots)){
+        const slotNames = ["vest","jacket","belt","pants","backpack","helmet","mask","glasses","gloves","boots"];
+        imageSlotsContainer.style.display = "flex";
+        imageSlotsContainer.style.flexWrap = "wrap";
+        imageSlotsContainer.style.gap = "8px";
+        slotNames.forEach(name => {
+            const slotData = variant.slots.find(s => s[name]!==undefined);
+            if(slotData && slotData[name]===1){
+                const slotDiv = document.createElement("div");
+                slotDiv.classList.add("slot-circle");
+                slotDiv.title = slotData.description || "";
+
+                const slotImg = document.createElement("img");
+                slotImg.src = slotData.images?.[0] || "";
+                slotImg.style.width = "40px";
+                slotImg.style.height = "40px";
+                slotImg.style.borderRadius = "50%";
+                slotImg.style.objectFit = "cover";
+
+                slotDiv.appendChild(slotImg);
+                imageSlotsContainer.appendChild(slotDiv);
+            }
+        });
+        statsContainer.appendChild(imageSlotsContainer);
+    }
 
     const statsList = document.createElement("ul");
     for(const key in variant.stats){
@@ -160,9 +184,16 @@ function renderSet(){
         statsList.appendChild(li);
     }
     statsContainer.appendChild(statsList);
+
+    // Характеристики
+    const statsTitle = document.createElement("h4");
+    statsTitle.textContent = "Характеристики:";
+    statsContainer.appendChild(statsTitle);
 }
 
-// Навигация фото
+/* -------------------------------
+   Навигация фото комплекта
+---------------------------------*/
 function nextImage(){
     if(!currentSet) return;
     const variant = currentSet.variants[currentVariantIndex];
@@ -175,6 +206,73 @@ function prevImage(){
     currentImageIndex = (currentImageIndex - 1 + variant.images.length) % variant.images.length;
     renderSet();
 }
+
+/* -------------------------------
+   Модальное окно для фото комплекта
+---------------------------------*/
+const setPhotoModal = document.createElement("div");
+setPhotoModal.id = "set-photo-modal";
+setPhotoModal.style.position = "fixed";
+setPhotoModal.style.top = "0";
+setPhotoModal.style.left = "0";
+setPhotoModal.style.width = "100%";
+setPhotoModal.style.height = "100%";
+setPhotoModal.style.backgroundColor = "rgba(0,0,0,0.8)";
+setPhotoModal.style.display = "none";
+setPhotoModal.style.justifyContent = "center";
+setPhotoModal.style.alignItems = "center";
+setPhotoModal.style.zIndex = "9999";
+
+const modalContent = document.createElement("div");
+modalContent.style.position = "relative";
+modalContent.style.maxWidth = "90%";
+modalContent.style.maxHeight = "90%";
+
+const modalImg = document.createElement("img");
+modalImg.style.width = "100%";
+modalImg.style.height = "100%";
+modalImg.style.objectFit = "contain";
+modalImg.style.borderRadius = "6px";
+
+const closeModalBtn = document.createElement("span");
+closeModalBtn.textContent = "✖";
+closeModalBtn.style.position = "fixed";
+closeModalBtn.style.top = "16px";
+closeModalBtn.style.right = "16px";
+closeModalBtn.style.fontSize = "28px";
+closeModalBtn.style.color = "#fff";
+closeModalBtn.style.cursor = "pointer";
+closeModalBtn.style.userSelect = "none";
+
+modalContent.appendChild(modalImg);
+modalContent.appendChild(closeModalBtn);
+setPhotoModal.appendChild(modalContent);
+document.body.appendChild(setPhotoModal);
+
+// открытие модального окна при клике на фото комплекта
+photoContainer.addEventListener("click", e => {
+    if(e.target.tagName === "IMG"){
+        modalImg.src = e.target.src;
+        setPhotoModal.style.display = "flex";
+        scale = 1;
+        modalImg.style.transform = `scale(1)`;
+    }
+});
+
+// закрытие окна крестиком или кликом вне картинки
+closeModalBtn.onclick = () => { setPhotoModal.style.display = "none"; };
+setPhotoModal.onclick = e => {
+    if(e.target === setPhotoModal) setPhotoModal.style.display = "none";
+};
+
+// масштаб с помощью колесика мыши
+let scale = 1;
+modalImg.onwheel = e => {
+    e.preventDefault();
+    scale += e.deltaY * -0.001;
+    scale = Math.min(Math.max(0.5, scale), 3);
+    modalImg.style.transform = `scale(${scale})`;
+};
 
 /* -------------------------------
    Вкладка артефактов
