@@ -152,7 +152,7 @@ function renderSet(){
 
     // Кружочки слотов под заголовком
     if(variant.slots && Array.isArray(variant.slots)){
-        const slotNames = ["vest","jacket","belt","pants","backpack","helmet","mask","glasses","gloves","boots"];
+        const slotNames = ["vest","jacket","belt","pants","backpack","helmet","mask","glasses","gloves","boots","bandage"];
         imageSlotsContainer.style.display = "flex";
         imageSlotsContainer.style.flexWrap = "wrap";
         imageSlotsContainer.style.gap = "8px";
@@ -177,6 +177,11 @@ function renderSet(){
         statsContainer.appendChild(imageSlotsContainer);
     }
 
+    // Характеристики
+    const statsTitle = document.createElement("h4");
+    statsTitle.textContent = "Характеристики:";
+    statsContainer.appendChild(statsTitle);
+    
     const statsList = document.createElement("ul");
     for(const key in variant.stats){
         const li = document.createElement("li");
@@ -185,10 +190,6 @@ function renderSet(){
     }
     statsContainer.appendChild(statsList);
 
-    // Характеристики
-    const statsTitle = document.createElement("h4");
-    statsTitle.textContent = "Характеристики:";
-    statsContainer.appendChild(statsTitle);
 }
 
 /* -------------------------------
