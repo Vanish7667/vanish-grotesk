@@ -21,8 +21,8 @@ const classColumn = document.getElementById("class-column");
 const setsColumn = document.getElementById("sets-column");
 const detailsColumn = document.getElementById("details-column");
 
-const classes = ["combat", "science", "mixed"];
-const classNames = {combat:"Боевой", science:"Научный", mixed:"Скрытные"};
+const classes = ["combat", "science", "mixed", "exoskeleton", "test"];
+const classNames = {combat:"Боевые", science:"Научные", mixed:"Скрытные", exoskeleton:"Экзоскелеты", test:"test_sets"};
 
 let currentSet = null;
 let currentVariantIndex = 0;

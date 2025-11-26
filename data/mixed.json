@@ -15,9 +15,90 @@
                     "images/mixed/LuckyCharm/LuckyCharm_7.png",
                     "images/mixed/LuckyCharm/LuckyCharm_8.png"
                 ],
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 44 защиты от радиации, 230 слотов, 8 креплений под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 44 защиты от радиации, 350 слотов , 9 активных слотов для артефактов.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 44 защиты от радиации, 700 слотов для вещей, 10 активных слотов для артефактов, крепление для кабуры, ножн, фляги.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 44 защиты от радиации, 350 слотов для вещей.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Капюшен. Имеет 44 защиты от радиации.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Маска. Имеет 44 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имеют 44 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 44 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    },
+                    {
+                        "bandage": 1,
+                        "description": "Гилли. Не имеет защиты от радиации.",
+                        "images": [
+                            "images/slots/Bandage.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
+                    "Общее кол-во слотов": 1630,
+                    "Защита": 75,
+                    "Защита от радиации": 352,
+                    "Скрытность": 35
                 }
             }
         ]
@@ -34,414 +115,83 @@
                     "images/mixed/Bracken/Bracken_3.png",
                     "images/mixed/Bracken/Bracken_4.png"
                 ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "Бандитский плащ",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "Бандитский плащ.",
-                "images": [
-                    "images/newsets/Bandit_Plash/Bandit_Plash_1.png",
-                    "images/newsets/Bandit_Plash/Bandit_Plash_2.png"
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Жилет. Имеет 67 защиты от радиации, 330 слотов под вещи, 8 креплений под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 67 защиты от радиации, 450 слотов под вещи, 10 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Не имеет защиты от радиации, но вмещает в себя 800 слотов под вещи, 10 слотов под активные артефакты, крепления под кабуру, ножны, флягу.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 67 защиты от радиации, 450 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Шлем. Имеет 67 защиты от радиации, встроеное крепление для ПНВ.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имеют 67 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 67 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
                 ],
                 "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "СПЕ 10В",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "СПЕ 10В.",
-                "images": [
-                    "images/newsets/CPE_10B/CPE_10B_A/CPE_10B_A_1.png",
-                    "images/newsets/CPE_10B/CPE_10B_A/CPE_10B_A_2.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант А",
-                "description": "СПЕ 10В.",
-                "images": [
-                    "images/newsets/CPE_10B/CPE_10B_A/CPE_10B_A_1.png",
-                    "images/newsets/CPE_10B/CPE_10B_A/CPE_10B_A_2.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант В",
-                "description": "СПЕ 10В.",
-                "images": [
-                    "images/newsets/CPE_10B/CPE_10B_B/CPE_10B_B_1.png",
-                    "images/newsets/CPE_10B/CPE_10B_B/CPE_10B_B_2.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "СПЕ 13Т",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "СПЕ 13Т.",
-                "images": [
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_1.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_2.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_3.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_4.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_5.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_6.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_7.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант А",
-                "description": "СПЕ 13Т.",
-                "images": [
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_1.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_2.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_3.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_4.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_5.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_6.png",
-                    "images/newsets/CPE_13T/CPE_13T_A/CPE_13T_A_7.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант В",
-                "description": "СПЕ 13Т.",
-                "images": [
-                    "images/newsets/CPE_13T/CPE_13T_B/CPE_13T_B_1.png",
-                    "images/newsets/CPE_13T/CPE_13T_B/CPE_13T_B_2.png",
-                    "images/newsets/CPE_13T/CPE_13T_B/CPE_13T_B_3.png",
-                    "images/newsets/CPE_13T/CPE_13T_B/CPE_13T_B_4.png",
-                    "images/newsets/CPE_13T/CPE_13T_B/CPE_13T_B_5.png",
-                    "images/newsets/CPE_13T/CPE_13T_B/CPE_13T_B_6.png",
-                    "images/newsets/CPE_13T/CPE_13T_B/CPE_13T_B_7.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ИПК 99",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ИПК 99.",
-                "images": [
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_1.png",
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_2.png",
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_3.png",
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант А",
-                "description": "ИПК 99.",
-                "images": [
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_1.png",
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_2.png",
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_3.png",
-                    "images/newsets/IPK_99/IPK_99_A/IPK_99_A_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант В",
-                "description": "ИПК 99.",
-                "images": [
-                    "images/newsets/IPK_99/IPK_99_B/IPK_99_B_1.png",
-                    "images/newsets/IPK_99/IPK_99_B/IPK_99_B_2.png",
-                    "images/newsets/IPK_99/IPK_99_B/IPK_99_B_3.png",
-                    "images/newsets/IPK_99/IPK_99_B/IPK_99_B_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ИПК 100М",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ИПК 100М.",
-                "images": [
-                    "images/newsets/IPK_100M/ipk_1.png",
-                    "images/newsets/IPK_100M/ipk_2.png",
-                    "images/newsets/IPK_100M/ipk_3.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ОЗК Л5",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ОЗК Л5.",
-                "images": [
-                    "images/newsets/OZK_L5/OZK_L5_1.png",
-                    "images/newsets/OZK_L5/OZK_L5_2.png",
-                    "images/newsets/OZK_L5/OZK_L5_3.png",
-                    "images/newsets/OZK_L5/OZK_L5_4.png",
-                    "images/newsets/OZK_L5/OZK_L5_5.png",
-                    "images/newsets/OZK_L5/OZK_L5_6.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ОЗС 9Д",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ОЗС 9Д.",
-                "images": [
-                    "images/newsets/OZS_9D/OZS_9D_1.png",
-                    "images/newsets/OZS_9D/OZS_9D_2.png",
-                    "images/newsets/OZS_9D/OZS_9D_3.png",
-                    "images/newsets/OZS_9D/OZS_9D_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ОЗС 9М",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ОЗС 9М.",
-                "images": [
-                    "images/newsets/OZS_9M/OZS_9M_1.png",
-                    "images/newsets/OZS_9M/OZS_9M_2.png",
-                    "images/newsets/OZS_9M/OZS_9M_3.png",
-                    "images/newsets/OZS_9M/OZS_9M_4.png",
-                    "images/newsets/OZS_9M/OZS_9M_5.png",
-                    "images/newsets/OZS_9M/OZS_9M_6.png",
-                    "images/newsets/OZS_9M/OZS_9M_7.png",
-                    "images/newsets/OZS_9M/OZS_9M_8.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ОЗС 9П",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ОЗС 9П.",
-                "images": [
-                    "images/newsets/OZS_9P/OZS_9P_1.png",
-                    "images/newsets/OZS_9P/OZS_9P_2.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ОЗС 12П",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ОЗС 12П.",
-                "images": [
-                    "images/newsets/OZS_12P/OZS_12P_1.png",
-                    "images/newsets/OZS_12P/OZS_12P_2.png",
-                    "images/newsets/OZS_12P/OZS_12P_3.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "ОЗС М",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "ОЗС М.",
-                "images": [
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_1.png",
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_2.png",
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_3.png",
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант А",
-                "description": "ОЗС М.",
-                "images": [
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_1.png",
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_2.png",
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_3.png",
-                    "images/newsets/OZS_M/OZS_M_A/OZS_M_A_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант В",
-                "description": "ОЗС М.",
-                "images": [
-                    "images/newsets/OZS_M/OZS_M_B/OZS_M_B_1.png",
-                    "images/newsets/OZS_M/OZS_M_B/OZS_M_B_2.png",
-                    "images/newsets/OZS_M/OZS_M_B/OZS_M_B_3.png",
-                    "images/newsets/OZS_M/OZS_M_B/OZS_M_B_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "Рекрут",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "Рекрут.",
-                "images": [
-                    "images/newsets/Recryt/Recryt_1.png",
-                    "images/newsets/Recryt/Recryt_2.png",
-                    "images/newsets/Recryt/Recryt_3.png",
-                    "images/newsets/Recryt/Recryt_4.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "Рутил 6Д",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "Рутил 6Д.",
-                "images": [
-                    "images/newsets/RYTIL_6D/RYTIL_6D_A/RYTIL_6D_A_1.png",
-                    "images/newsets/RYTIL_6D/RYTIL_6D_A/RYTIL_6D_A_2.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант А",
-                "description": "Рутил 6Д.",
-                "images": [
-                    "images/newsets/RYTIL_6D/RYTIL_6D_A/RYTIL_6D_A_1.png",
-                    "images/newsets/RYTIL_6D/RYTIL_6D_A/RYTIL_6D_A_2.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            },
-            {
-                "rank": "Вариант В",
-                "description": "Рутил 6Д.",
-                "images": [
-                    "images/newsets/RYTIL_6D/RYTIL_6D_B/RYTIL_6D_B_1.png",
-                    "images/newsets/RYTIL_6D/RYTIL_6D_B/RYTIL_6D_B_2.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
-                }
-            }
-        ]
-    },
-    {
-        "name": "Восход",
-        "variants": [
-            {
-                "rank": "Легенда Х",
-                "description": "Восход.",
-                "images": [
-                    "images/newsets/Voshod/Voshod_1.png",
-                    "images/newsets/Voshod/Voshod_2.png",
-                    "images/newsets/Voshod/Voshod_3.png",
-                    "images/newsets/Voshod/Voshod_4.png",
-                    "images/newsets/Voshod/Voshod_5.png",
-                    "images/newsets/Voshod/Voshod_6.png"
-                ],
-                "stats": {
-                    "Защита": 999,
-                    "Скрытность": 999
+                    "Общее кол-во слотов": 2030,
+                    "Защита": 80,
+                    "Защита от радиации": 402,
+                    "Скрытность": 20
                 }
             }
         ]

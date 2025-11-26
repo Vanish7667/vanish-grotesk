@@ -4,10 +4,83 @@
         "variants": [
             {
                 "rank": "Ветеран",
-                "description": "Биохазард.",
+                "description": "",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 57 защиты от радиации, 150 слотов, 4 крепления под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 57 защиты от радиации, 220 слотов под вещи, 7 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 57 защиты от радиации, 600 слотов под вещи, вмещает 10 активных артефактов, имеет крепление для кабуры, фляги ножн.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 57 защиты от радиации, 220 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. не имеет защиты от радиации, но вмещает 280 слотов под вещи, 4 крепления под оружие.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Капюшен. Имеет 57 защиты от радиации.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 57 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имеют 57 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 57 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 1470,
+                    "Защита": 70,
+                    "Защита от радиации": 456
                 },
                 "images": [
                     "images/science/Biohazard/Biohazard_1.png",
@@ -17,10 +90,83 @@
             },
             {
                 "rank": "Легенда 3",
-                "description": "Биохазард.",
+                "description": "",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 80 защиты от радиации, 230 слотов, 8 крепления под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 57 защиты от радиации, 350 слотов под вещи, 9 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 80 защиты от радиации, 700 слотов под вещи, вмещает 10 активных артефактов, имеет крепление для кабуры, фляги ножн.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 80 защиты от радиации, 350 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. не имеет защиты от радиации, но вмещает 500 слотов под вещи, 8 крепления под оружие.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Капюшен. Имеет 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имеют 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 2130,
+                    "Защита": 80,
+                    "Защита от радиации": 617
                 },
                 "images": [
                     "images/science/Biohazard/Biohazard_1.png",
@@ -36,27 +182,280 @@
             {
                 "rank": "Ветеран",
                 "description": "Тайга.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 65 защиты от радиации, 150 слотов под вещи , 5 креплейний под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 65 защиты от радиации, 220 слотов под вещи, 7 слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 65 защиты от радиации, 600 слотов под вещи, 10 активных слотов под артефакты, крепления для кабуры, фляги и ножн.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 65 защиты от радиации, 220 слотов для вещей.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. Не имеет защиты от радиации, но вмещает 280 слотов под вещи и 4 крепления под оружие.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 65 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "перчатки. Имеют 65 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 65 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 1470,
+                    "Защита": 70,
+                    "Защита от радиации": 455
                 },
                 "images": [
                     "images/science/Taiga/Taiga_1.png",
                     "images/science/Taiga/Taiga_2.png",
-                    "images/science/Taiga/Taiga_3.png"
+                    "images/science/Taiga/Taiga_3.png",
+                    "images/science/Taiga/Taiga_4.png",
+                    "images/science/Taiga/Taiga_5.png",
+                    "images/science/Taiga/Taiga_6.png",
+                    "images/science/Taiga/Taiga_7.png",
+                    "images/science/Taiga/Taiga_8.png",
+                    "images/science/Taiga/Taiga_9.png",
+                    "images/science/Taiga/Taiga_10.png"
                 ]
             },
             {
                 "rank": "Легенда 3",
                 "description": "Тайга.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 86 защиты от радиации, 230 слотов под вещи , 8 креплейний под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 86 защиты от радиации, 350 слотов под вещи, 9 слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 86 защиты от радиации, 700 слотов под вещи, 10 активных слотов под артефакты, крепления для кабуры, фляги и ножн.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 86 защиты от радиации, 350 слотов для вещей.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. Не имеет защиты от радиации, но вмещает 500 слотов под вещи и 8 крепления под оружие.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 86 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "перчатки. Имеют 86 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 86 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 2130,
+                    "Защита": 80,
+                    "Защита от радиации": 602
                 },
                 "images": [
                     "images/science/Taiga/Taiga_1.png",
                     "images/science/Taiga/Taiga_2.png",
-                    "images/science/Taiga/Taiga_3.png"
+                    "images/science/Taiga/Taiga_3.png",
+                    "images/science/Taiga/Taiga_4.png",
+                    "images/science/Taiga/Taiga_5.png",
+                    "images/science/Taiga/Taiga_6.png",
+                    "images/science/Taiga/Taiga_7.png",
+                    "images/science/Taiga/Taiga_8.png",
+                    "images/science/Taiga/Taiga_9.png",
+                    "images/science/Taiga/Taiga_10.png"
+                ]
+            },
+            {
+                "rank": "Легенда Х",
+                "description": "Тайга.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 115 защиты от радиации, 330 слотов под вещи , 8 креплейний под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 115 защиты от радиации, 450 слотов под вещи, 10 слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 115 защиты от радиации, 800 слотов под вещи, 10 активных слотов под артефакты, крепления для кабуры, фляги и ножн.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 115 защиты от радиации, 450 слотов для вещей.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. Не имеет защиты от радиации, но вмещает 800 слотов под вещи и 8 крепления под оружие.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 115 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "перчатки. Имеют 115 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 115 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
+                "stats": {
+                    "Общее кол-во слотов": 2830,
+                    "Защита": 85,
+                    "Защита от радиации": 805
+                },
+                "images": [
+                    "images/science/Taiga/Taiga_1.png",
+                    "images/science/Taiga/Taiga_2.png",
+                    "images/science/Taiga/Taiga_3.png",
+                    "images/science/Taiga/Taiga_4.png",
+                    "images/science/Taiga/Taiga_5.png",
+                    "images/science/Taiga/Taiga_6.png",
+                    "images/science/Taiga/Taiga_7.png",
+                    "images/science/Taiga/Taiga_8.png",
+                    "images/science/Taiga/Taiga_9.png",
+                    "images/science/Taiga/Taiga_10.png"
                 ]
             }
         ]
@@ -67,9 +466,82 @@
             {
                 "rank": "Ветеран",
                 "description": "Ред Деад.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 75 защиты от радиации, 150 слотов под вещи, 5 креплений под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 75 защиты от радиации, 220 слотов под вещи, 7 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имееют 75 защиты от радиации, 220 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. Не имеет защиты от радиации, но вмещает в себя 280 слотов под вещи , 4 крепления под оружие.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 75 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имееют 75 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 75 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 870,
+                    "Защита": 70,
+                    "Защита от радиации": 450
                 },
                 "images": [
                     "images/science/Red/Red_1.png"
@@ -78,9 +550,82 @@
             {
                 "rank": "Легенда 3",
                 "description": "Ред Деад.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 100 защиты от радиации, 230 слотов под вещи, 8 креплений под магазины.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 100 защиты от радиации, 350 слотов под вещи, 9 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имееют 100 защиты от радиации, 350 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. Не имеет защиты от радиации, но вмещает в себя 500 слотов под вещи , 8 крепления под оружие.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 100 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имееют 100 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 100 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 1430,
+                    "Защита": 80,
+                    "Защита от радиации": 600
                 },
                 "images": [
                     "images/science/Red/Red_1.png"
@@ -94,9 +639,82 @@
             {
                 "rank": "Легенда 3",
                 "description": "Мирбек.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 80 защиты от радиации, вмещает 160 слотов и 5 креплений под подсумки.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "куртка. Имеет 80 защиты от радиации, 350 слотов под вещи, 9 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 80 защиты от радиации, 700 слотов под вещи, крепления под кабуру, ножны, флягу.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 80 защиты от радиации, 350 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Шлем. Имеет 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 1,
+                        "description": "Противогаз. Имеет 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки.Имеют 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 80 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 1560,
+                    "Защита": 80,
+                    "Защита от радиации": 640
                 },
                 "images": [
                     "images/science/Mirbek/Mirbek_1.png",
@@ -113,9 +731,82 @@
             {
                 "rank": "Легенда 3",
                 "description": "Сева.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 86 защиты от радиации, 230 слотов под вещи, 8 креплений под магазины и подсумок.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 86 защиты от радиации, 350 слотов под вещи, 9 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 86 защиты от радиации, вмещает 700 слотов , крепления под кабуру, флягу, ножны.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 86 защиты от радиации, 350 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. Не имеет защиты от радиации, но вмещает 500 слотов, 8 креплений под оружие и рацию.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Самоспасатель. Имеет 86 защиты от радиации, крепление для ПНв.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имеют 86 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 86 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 2130,
+                    "Защита": 80,
+                    "Защита от радиации": 602
                 },
                 "images": [
                     "images/science/KS_seva/KS_seva_1.png",
@@ -133,9 +824,82 @@
             {
                 "rank": "Легенда Х",
                 "description": "Сева.",
+                "slots": [
+                    {
+                        "vest": 1,
+                        "description": "Бронижилет. Имеет 115 защиты от радиации, 330 слотов под вещи, 8 креплений под магазины и подсумок.",
+                        "images": [
+                            "images/slots/Vest.png"
+                        ]
+                    },
+                    {
+                        "jacket": 1,
+                        "description": "Куртка. Имеет 115 защиты от радиации, 450 слотов под вещи, 10 активных слотов под артефакты.",
+                        "images": [
+                            "images/slots/Jacket.png"
+                        ]
+                    },
+                    {
+                        "belt": 1,
+                        "description": "Ремень. Имеет 115 защиты от радиации, вмещает 800 слотов , крепления под кабуру, флягу, ножны.",
+                        "images": [
+                            "images/slots/Belt.png"
+                        ]
+                    },
+                    {
+                        "pants": 1,
+                        "description": "Штаны. Имеют 115 защиты от радиации, 450 слотов под вещи.",
+                        "images": [
+                            "images/slots/Pants.png"
+                        ]
+                    },
+                    {
+                        "backpack": 1,
+                        "description": "Рюкзак. Не имеет защиты от радиации, но вмещает 800 слотов, 8 креплений под оружие и рацию.",
+                        "images": [
+                            "images/slots/Backpack.png"
+                        ]
+                    },
+                    {
+                        "helmet": 1,
+                        "description": "Самоспасатель. Имеет 115 защиты от радиации, крепление для ПНв.",
+                        "images": [
+                            "images/slots/Helmet.png"
+                        ]
+                    },
+                    {
+                        "mask": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Mask.png"
+                        ]
+                    },
+                    {
+                        "glasses": 0,
+                        "description": "",
+                        "images": [
+                            "images/slots/Glasses.png"
+                        ]
+                    },
+                    {
+                        "gloves": 1,
+                        "description": "Перчатки. Имеют 115 защиты от радиации.",
+                        "images": [
+                            "images/slots/Gloves.png"
+                        ]
+                    },
+                    {
+                        "boots": 1,
+                        "description": "Ботинки. Имеют 115 защиты от радиации.",
+                        "images": [
+                            "images/slots/Boots.png"
+                        ]
+                    }
+                ],
                 "stats": {
-                    "Защита": 999,
-                    "Защита от радиации": 999
+                    "Общее кол-во слотов": 2830,
+                    "Защита": 85,
+                    "Защита от радиации": 805
                 },
                 "images": [
                     "images/science/KS_seva/KS_seva_1.png",
